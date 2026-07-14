@@ -75,6 +75,8 @@ section{margin:44px 0;scroll-margin-top:70px}
 .card:hover{transform:translateY(-6px);box-shadow:0 14px 28px rgba(255,133,162,.28)}
 .card .ph{aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;font-size:60px;
   background:linear-gradient(135deg,var(--pink-l),#f0e6ff)}
+.card .ph svg{width:86%;height:86%}
+.hero-art{display:block;margin:6px auto 0}
 .card .body{padding:14px 16px 18px}
 .card h3{margin:0 0 4px;font-size:18px;font-weight:900}
 .card .role{display:inline-block;font-size:11px;font-weight:900;color:#fff;background:var(--purple);
@@ -145,6 +147,20 @@ footer .h{color:var(--pink);font-size:18px}
 <div class="hero">
   <span class="tag">🌟 非公式ファンサイト</span>
   <h1>おにいさんずラブ</h1>
+  <svg class="hero-art" viewBox="0 0 260 130" width="240" role="img" aria-label="LOVE HOUSEのイラスト">
+    <path d="M62 66 L130 20 L198 66" fill="none" stroke="#ff85a2" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="76" y="64" width="108" height="52" rx="12" fill="#fff" stroke="#ffd0de" stroke-width="4"/>
+    <path d="M130 106 c-11-9 -17-15 -17-22 a9 9 0 0 1 17-5 a9 9 0 0 1 17 5 c0 7 -6 13 -17 22 z" fill="#ff85a2"/>
+    <circle cx="106" cy="80" r="6" fill="#ffd66b"/>
+    <circle cx="154" cy="80" r="6" fill="#a685e2"/>
+    <g fill="#ffb3c1">
+      <circle cx="36" cy="42" r="5"/><circle cx="46" cy="30" r="3"/>
+      <circle cx="224" cy="44" r="5"/><circle cx="214" cy="30" r="3"/>
+    </g>
+    <g stroke="#ffd66b" stroke-width="3" stroke-linecap="round">
+      <path d="M30 78 h10 M35 73 v10"/><path d="M228 76 h10 M233 71 v10"/>
+    </g>
+  </svg>
   <p>“おにラブ”をだいすきな、おにラバのおうち。<br>きょーた &amp; みつき の2人を応援する、ファンのための非公式サイトです。</p>
   <div class="cta">
     <a href="#members" class="btn p">2人を見る →</a>
@@ -178,7 +194,29 @@ footer .h{color:var(--pink);font-size:18px}
   <section id="members">
     <div class="sec-h"><h2><span class="en">MEMBERS</span>メンバー紹介</h2><div class="u"></div></div>
     <div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(260px,1fr))">
-      <article class="card" style="border-color:#ffe08a"><div class="ph" style="background:linear-gradient(135deg,#fff3c4,#fffbe8)">🧑‍🦱</div><div class="body">
+      <article class="card" style="border-color:#ffe08a"><div class="ph" style="background:linear-gradient(135deg,#fff3c4,#fffbe8)">
+        <svg viewBox="0 0 200 200" role="img" aria-label="みつきのイラスト（自作）">
+          <path d="M38 200v-18c0-27 28-42 62-42s62 15 62 42v18z" fill="#f5b940"/>
+          <path d="M38 200v-18c0-27 28-42 62-42s62 15 62 42v18z" fill="none" stroke="#e8a838" stroke-width="3"/>
+          <rect x="86" y="138" width="28" height="20" rx="9" fill="#ffe4d3"/>
+          <circle cx="100" cy="96" r="52" fill="#ffe4d3"/>
+          <path d="M48 98 C48 60 71 40 100 40 C129 40 152 60 152 98 C146 84 139 80 134 70 C130 84 118 87 112 76 C104 89 92 89 86 76 C80 87 70 84 66 72 C60 82 53 86 48 98 Z" fill="#f7cf5f"/>
+          <path d="M47 94 q-5 18 3 30 q7-5 6-16 z" fill="#f7cf5f"/>
+          <path d="M153 94 q5 18 -3 30 q-7-5 -6-16 z" fill="#f7cf5f"/>
+          <circle cx="82" cy="103" r="5.5" fill="#4a3b45"/>
+          <circle cx="118" cy="103" r="5.5" fill="#4a3b45"/>
+          <circle cx="84" cy="101" r="1.8" fill="#fff"/>
+          <circle cx="120" cy="101" r="1.8" fill="#fff"/>
+          <path d="M74 92 q8 -6 16 -2" fill="none" stroke="#e0b64f" stroke-width="3" stroke-linecap="round"/>
+          <path d="M110 90 q8 -4 16 2" fill="none" stroke="#e0b64f" stroke-width="3" stroke-linecap="round"/>
+          <ellipse cx="70" cy="116" rx="8" ry="5" fill="#ffb3c1" opacity=".75"/>
+          <ellipse cx="130" cy="116" rx="8" ry="5" fill="#ffb3c1" opacity=".75"/>
+          <path d="M90 120 Q100 131 110 120" fill="none" stroke="#4a3b45" stroke-width="3.5" stroke-linecap="round"/>
+          <g stroke="#fff" stroke-width="3" stroke-linecap="round">
+            <path d="M146 52 h10 M151 47 v10"/>
+          </g>
+        </svg>
+      </div><div class="body">
         <h3>みつき <span style="font-size:12px;color:#c79a1e">●メンバーカラー：黄</span></h3>
         <span class="role" style="background:#e0a800">2004.12.17 / 栃木県 / 178cm / B型</span>
         <p>本名は<b>久家光樹</b>（くげ みつき）。MBTIは<b>ENTP</b>、恋愛MBTIは「ちゃっかりうさぎ」。
@@ -187,7 +225,25 @@ footer .h{color:var(--pink);font-size:18px}
         <p style="margin-top:8px">
           <a href="https://x.com/mittuki_osaka" target="_blank" rel="noopener">𝕏 @mittuki_osaka</a> ・
           <a href="https://www.instagram.com/kugemitsukihide/" target="_blank" rel="noopener">📸 IG</a></p></div></article>
-      <article class="card" style="border-color:#d5c2f5"><div class="ph" style="background:linear-gradient(135deg,#e9defa,#f6f0ff)">🧑</div><div class="body">
+      <article class="card" style="border-color:#d5c2f5"><div class="ph" style="background:linear-gradient(135deg,#e9defa,#f6f0ff)">
+        <svg viewBox="0 0 200 200" role="img" aria-label="きょーたのイラスト（自作）">
+          <path d="M38 200v-18c0-27 28-42 62-42s62 15 62 42v18z" fill="#a685e2"/>
+          <path d="M38 200v-18c0-27 28-42 62-42s62 15 62 42v18z" fill="none" stroke="#8f6fd0" stroke-width="3"/>
+          <rect x="86" y="138" width="28" height="20" rx="9" fill="#ffe4d3"/>
+          <circle cx="100" cy="96" r="52" fill="#ffe4d3"/>
+          <path d="M48 100 C46 60 72 38 100 38 C130 38 154 62 152 102 C150 86 146 78 140 70 C138 88 131 95 122 99 C125 86 123 77 117 70 C107 84 93 86 84 78 C79 88 71 90 65 84 C59 89 53 94 48 100 Z" fill="#5c4a54"/>
+          <path d="M46 96 q-3 20 5 33 q8-6 6-18 z" fill="#5c4a54"/>
+          <path d="M154 96 q3 20 -5 33 q-8-6 -6-18 z" fill="#5c4a54"/>
+          <circle cx="82" cy="104" r="5.5" fill="#4a3b45"/>
+          <circle cx="118" cy="104" r="5.5" fill="#4a3b45"/>
+          <circle cx="84" cy="102" r="1.8" fill="#fff"/>
+          <circle cx="120" cy="102" r="1.8" fill="#fff"/>
+          <ellipse cx="70" cy="117" rx="8" ry="5" fill="#ffb3c1" opacity=".75"/>
+          <ellipse cx="130" cy="117" rx="8" ry="5" fill="#ffb3c1" opacity=".75"/>
+          <path d="M92 122 Q100 128 108 122" fill="none" stroke="#4a3b45" stroke-width="3.5" stroke-linecap="round"/>
+          <path d="M148 50 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3 z" fill="#cbb3f5"/>
+        </svg>
+      </div><div class="body">
         <h3>きょーた <span style="font-size:12px;color:#8250df">●メンバーカラー：紫</span></h3>
         <span class="role">2003.3.18 / 山形県 / 180cm / A型</span>
         <p>本名は<b>藤田恭大</b>（ふじた きょうた）。MBTIは<b>ENFJ</b>、恋愛MBTIは「最後の恋人」。
@@ -198,13 +254,31 @@ footer .h{color:var(--pink);font-size:18px}
           <a href="https://x.com/Olove_kyota" target="_blank" rel="noopener">𝕏 @Olove_kyota</a> ・
           <a href="https://www.instagram.com/metcha_kyota/" target="_blank" rel="noopener">📸 IG</a> ・
           <a href="https://x.com/metcha_kyota" target="_blank" rel="noopener">𝕏 水大福</a></p></div></article>
-      <article class="card" style="border-color:#c9e8d8"><div class="ph" style="background:linear-gradient(135deg,#e2f5ea,#f2fbf6)">🐶</div><div class="body">
+      <article class="card" style="border-color:#c9e8d8"><div class="ph" style="background:linear-gradient(135deg,#e2f5ea,#f2fbf6)">
+        <svg viewBox="0 0 200 200" role="img" aria-label="まーちゃんのイラスト（自作）">
+          <ellipse cx="100" cy="172" rx="48" ry="24" fill="#fff" stroke="#eadfd2" stroke-width="3"/>
+          <ellipse cx="57" cy="84" rx="15" ry="27" fill="#efdcc8" transform="rotate(18 57 84)"/>
+          <ellipse cx="143" cy="84" rx="15" ry="27" fill="#efdcc8" transform="rotate(-18 143 84)"/>
+          <circle cx="100" cy="102" r="48" fill="#fff" stroke="#eadfd2" stroke-width="3"/>
+          <path d="M70 62 q8 -12 18 -6 q6 -10 14 -4 q8 -8 16 0 q10 -6 14 8" fill="none" stroke="#eadfd2" stroke-width="4" stroke-linecap="round"/>
+          <circle cx="84" cy="98" r="5" fill="#4a3b45"/>
+          <circle cx="116" cy="98" r="5" fill="#4a3b45"/>
+          <circle cx="86" cy="96" r="1.6" fill="#fff"/>
+          <circle cx="118" cy="96" r="1.6" fill="#fff"/>
+          <path d="M93 110 h14 l-7 8 z" fill="#4a3b45"/>
+          <path d="M100 118 v5 M100 123 q-6 6 -12 2 M100 123 q6 6 12 2" fill="none" stroke="#4a3b45" stroke-width="3" stroke-linecap="round"/>
+          <ellipse cx="100" cy="131" rx="6" ry="4" fill="#ff9db1"/>
+          <ellipse cx="72" cy="112" rx="7" ry="4.5" fill="#ffb3c1" opacity=".7"/>
+          <ellipse cx="128" cy="112" rx="7" ry="4.5" fill="#ffb3c1" opacity=".7"/>
+          <path d="M158 132 c-5-4 -8-7 -8-11 a4.5 4.5 0 0 1 8-2.5 a4.5 4.5 0 0 1 8 2.5 c0 4 -3 7 -8 11 z" fill="#ff85a2"/>
+        </svg>
+      </div><div class="body">
         <h3>まーちゃん</h3><span class="role" style="background:#3fb984">マルチーズ×チワワのミックス</span>
         <p>LOVE HOUSEのアイドル的存在のわんちゃん。本名は非公開。2人の暮らしにそっと寄り添う癒し担当🐾</p></div></article>
     </div>
     <p style="text-align:center;color:#b9a3ad;font-size:12px;margin-top:14px">
       2人の出会いは2023年、NSC大阪46期。みつきの“病みツイート”にきょーたが反応したことがきっかけで友達に。<br>
-      ※ 絵文字は好きな画像に置き換えられます（権利的にOKな写真のみでお願いします）。
+      ※ イラストはこのサイトの自作です（公式の写真ではありません）。好きな画像に差し替えもOK（権利的に問題ないもののみで）。
     </p>
   </section>
 

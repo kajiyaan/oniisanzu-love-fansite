@@ -160,6 +160,7 @@ Instagram / note / lit.link / livepocket / Wikipedia / YouTube / DMM は**403で
 
 ### 技術構成（意図的にシンプル）
 - **単一HTML**（index.html）・フレームワークなし・ビルドなし・依存ゼロ
+- イラスト（LOVE HOUSE・みつき・きょーた・まーちゃん）は**インラインSVGでHTML内に埋め込み済み**＝画像ファイル不要。index.html 1個だけで見た目が完結する（manifest/sw/アイコンはPWA用のおまけで、なくても動く）
 - CSS変数でテーマ管理: `--pink:#ff85a2 --purple:#a685e2 --yellow:#ffd66b` など（`:root`にまとまっている）
 - PWA対応: manifest.webmanifest + sw.js + アイコン3種（ホーム画面追加・オフライン可）
 - 「おにラバの声」掲示板は **localStorage のみ**（サーバー送信なし・その端末内だけ）
